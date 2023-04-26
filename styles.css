@@ -86,11 +86,9 @@ input[type=range] {
     content: "";
 }
 
-.hidden-key {
-    display: none;
-}
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    /* Add your styles for mobile screens here */
     #piano {
         transform: rotate(-90deg) translateY(-100%);
         transform-origin: top left;
@@ -103,6 +101,7 @@ input[type=range] {
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     }
 
+    /* Adjust the style of the black keys */
     .black-key {
         width: 18px;
         height: 90px;
@@ -111,4 +110,4 @@ input[type=range] {
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
         z-index: 2;
     }
-} */
+}
